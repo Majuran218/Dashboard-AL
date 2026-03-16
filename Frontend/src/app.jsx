@@ -16,7 +16,7 @@ import HomePage from './pages/HomePage';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import StudentDashboard from './components/dashboard/StudentDashboard';
-import StreamSubjects from './components/streams/StreamSubjects';
+import StreamSubjects from './components/streams/Streamselector';
 import PastPapers from './components/pastpapers/PastPapers';
 import MCQSection from './components/mcq/MCQSection';
 import VideoLibrary from './components/videos/VideoLibrary';
