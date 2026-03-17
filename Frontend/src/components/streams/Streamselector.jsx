@@ -1,12 +1,12 @@
 // frontend/src/components/streams/StreamSelector.jsx
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuery } from 'react-query';
 import { getStreams } from '../../services/streamService';
-import { FaMath, FaFlask, FaPalette, FaChartLine, FaDna, FaCogs } from 'react-icons/fa';
+import { FaCalculator, FaFlask, FaPalette, FaChartLine, FaDna, FaCogs } from 'react-icons/fa';
+
 
 const streamIcons = {
-  'Mathematics': <FaMath className="w-8 h-8" />,
+  'Mathematics': <FaCalculator className="w-8 h-8" />,
   'BIO': <FaFlask className="w-8 h-8" />,
   'Arts': <FaPalette className="w-8 h-8" />,
   'Commerce': <FaChartLine className="w-8 h-8" />,
